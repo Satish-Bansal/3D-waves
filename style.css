@@ -1,0 +1,199 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+
+#main {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wave-con{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 25vh;
+    width: 25vw; */
+    /* background-color: white;     */
+}
+.wave {
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 50%;
+    transform: rotateX(50deg);
+}
+.wave1 {
+    height: 5vw;
+    width: 5vw;
+    animation: updown 1s infinite 0.1s linear ;
+}
+
+.wave2 {
+    height: 7vw;
+    width: 7vw;
+    animation: updown 1s infinite 0.2s linear ;
+}
+
+.wave3 {
+    height: 9vw;
+    width: 9vw;
+    animation: updown 1s infinite 0.3s linear ;
+
+}
+.wave4 {
+    height: 11vw;
+    width: 11vw;
+    animation: updown 1s infinite 0.4s linear ;
+
+}
+.wave5 {
+    height: 13vw;
+    width: 13vw;
+    animation: updown 1s infinite 0.5s linear ;
+}
+.wave6 {
+    height: 15vw;
+    width:15vw;
+    animation: updown 1s infinite 0.6s linear ;
+
+
+}
+.wave7 {
+    height: 17vw;
+    width: 17vw;
+    animation: updown 1s infinite 0.7s linear ;
+
+}
+.wave8 {
+    height: 19vw;
+    width: 19vw;
+    animation: updown 1s infinite 0.8s linear ;
+}
+.wave9 {
+    height: 21vw;
+    width: 21vw;
+    animation: updown 1s infinite 0.9s linear ;
+
+}
+
+.wave10 {
+    height: 23vw;
+    width: 23vw;
+    animation: updown 1s infinite 1s linear ;
+
+}
+.wave11 {
+    height: 25vw;
+    width: 25vw;
+    animation: updown 1s infinite 1.1s linear ;
+}
+.wave12 {
+    height: 27vw;
+    width: 27vw;
+    animation: updown 1s infinite 1.2s linear ;
+
+}
+.wave13 {
+    height: 29vw;
+    width: 29vw;
+    animation: updown 1s infinite 1.3s linear ;
+
+}
+.wave14 {
+    height: 31vw;
+    width: 31vw;
+    animation: updown 1s infinite 1.4s linear ;
+}
+.wave15 {
+    height: 33vw;
+    width: 33vw;
+    animation: updown 1s infinite 1.5s linear ;
+
+}
+.wave16 {
+    height: 35vw;
+    width: 35vw;
+    animation: updown 1s infinite 1.6s linear ;
+
+}
+.wave17 {
+    height: 37vw;
+    width: 37vw;
+    animation: updown 1s infinite 1.7s linear ;
+
+}
+.wave18 {
+    height: 39vw;
+    width: 39vw;
+    animation: updown 1s infinite 1.8s linear ;
+
+}
+.wave19 {
+    height: 41vw;
+    width: 41vw;
+    animation: updown 1s infinite 1.9s linear ;
+
+}
+.wave20 {
+    height: 43vw;
+    width: 43vw;
+    animation: updown 1s infinite 2s linear ;
+
+}
+.wave21 {
+    height: 45vw;
+    width: 45vw;
+    animation: updown 1s infinite 2.1s linear ;
+
+}
+.wave22 {
+    height: 47vw;
+    width: 47vw;
+    animation: updown 1s infinite 2.2s linear ;
+
+}
+.wave23 {
+    height: 49vw;
+    width: 49vw;
+    animation: updown 1s infinite 2.3s linear ;
+
+}
+.wave24 {
+    height: 51vw;
+    width: 51vw;
+    animation: updown 1s infinite 2.4s linear ;
+
+}
+.wave25 {
+    height: 53vw;
+    width: 53vw;
+    animation: updown 1s infinite 2.5s linear ;
+
+}
+
+
+
+
+@keyframes updown {
+    0%{
+        transform: rotateX(50deg) translateY(0%);
+        border: 4px solid black;
+    }   
+    50%{
+        transform: rotateX(50deg) translateY(-50px);
+        border: 4px solid red;
+    }
+    100%{
+        transform: rotateX(50deg) translateY(0%);
+        border: 4px solid black;
+    }
+}
